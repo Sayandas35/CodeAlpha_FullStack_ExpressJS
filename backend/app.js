@@ -1,13 +1,19 @@
-const express = require('express');
+require("dotenv").config(); // Load .env first
 
+const express = require("express");
+const path = require("path");
 const app = express();
 
-const PORT = 3000;
+const userRoutes = require("./routes/userRoutes");
+const connectDB = require("./database/db");
 
-app.get('/', (req, res) => {
-    res.send('Server is running!');
-});
+app.set("view engine", "hbs");
 
-app.listen(PORT, () => {
-    console.log(`Server started on http://localhost:${PORT}`);
-});
+app.set("views", path.join(__dirname, "../frontend"));
+
+connectDB();
+
+
+app.use("/", userRoutes);
+
+module.exports = app;
