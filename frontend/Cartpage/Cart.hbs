@@ -1,0 +1,329 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart - ShopMobile</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./Cart.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/">
+          <i class="bi bi-bag-check text-primary me-2"></i>ShopMobile
+        </a>
+
+        <!-- Cart Icon and Hamburger Toggle -->
+        <div class="d-flex align-items-center">
+          <a
+            href="/cart"
+            class="btn btn-outline-primary position-relative me-3"
+          >
+            <i class="bi bi-cart3"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-count"
+            >
+              0
+            </span>
+          </a>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="py-4 bg-light">
+      <div class="container">
+        <h1 class="h2 mb-0">Shopping Cart</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">Cart</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- Cart Content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <!-- Cart Items -->
+          <div class="col-12 col-lg-8">
+            <div id="cart-items">
+              <!-- Cart items will be loaded here -->
+            </div>
+
+            <!-- Empty Cart Message -->
+            <div
+              id="empty-cart"
+              class="text-center py-5"
+              style="display: none;"
+            >
+              <i class="bi bi-cart-x display-4 text-muted mb-3"></i>
+              <h4>Your cart is empty</h4>
+              <p class="text-muted">Add some products to get started</p>
+              <a href="products.html" class="btn btn-primary">Shop Now</a>
+            </div>
+          </div>
+
+          <!-- Cart Summary -->
+          <div class="col-12 col-lg-4">
+            <div class="card" id="cart-summary">
+              <div class="card-body">
+                <h5 class="card-title">Order Summary</h5>
+                <hr />
+                <div class="d-flex justify-content-between mb-2">
+                  <span>Subtotal:</span>
+                  <span id="subtotal">$0.00</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                  <span>Shipping:</span>
+                  <span id="shipping">$5.99</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2">
+                  <span>Tax:</span>
+                  <span id="tax">$0.00</span>
+                </div>
+                <hr />
+                <div class="d-flex justify-content-between mb-3">
+                  <strong>Total:</strong>
+                  <strong id="total">$0.00</strong>
+                </div>
+                <a
+                  href="/payment"
+                  class="btn btn-primary w-100"
+                  id="checkout-btn"
+                >
+                  Proceed to Checkout
+                </a>
+                <a
+                  href="?products"
+                  class="btn btn-outline-secondary w-100 mt-2"
+                >
+                  Continue Shopping
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floating Sign In Button -->
+    <button
+      class="btn btn-primary floating-auth-btn d-lg-none"
+      data-bs-toggle="modal"
+      data-bs-target="#authModal"
+    >
+      <i class="bi bi-person-plus"></i>
+    </button>
+
+    <!-- Auth Modal -->
+    <div class="modal fade" id="authModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <ul
+              class="nav nav-tabs flex-fill border-0"
+              id="authTabs"
+              role="tablist"
+            >
+              <li class="nav-item flex-fill" role="presentation">
+                <button
+                  class="nav-link active w-100"
+                  id="signin-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#signin"
+                  type="button"
+                >Sign In</button>
+              </li>
+              <li class="nav-item flex-fill" role="presentation">
+                <button
+                  class="nav-link w-100"
+                  id="signup-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#signup"
+                  type="button"
+                >Sign Up</button>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="tab-content" id="authTabContent">
+              <!-- Sign In Tab -->
+              <div class="tab-pane fade show active" id="signin">
+                <form id="signinForm">
+                  <div class="mb-3">
+                    <label for="signinEmail" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="signinEmail"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="signinPassword"
+                      class="form-label"
+                    >Password</label>
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signinPassword"
+                        required
+                      />
+                      <button
+                        class="btn btn-outline-secondary password-toggle"
+                        type="button"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                </form>
+              </div>
+              <!-- Sign Up Tab -->
+              <div class="tab-pane fade" id="signup">
+                <form id="signupForm">
+                  <div class="mb-3">
+                    <label for="signupName" class="form-label">Full Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="signupName"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="signupEmail" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="signupEmail"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="signupPassword"
+                      class="form-label"
+                    >Password</label>
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signupPassword"
+                        required
+                      />
+                      <button
+                        class="btn btn-outline-secondary password-toggle"
+                        type="button"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 text-white-500">
+            <h5>ShopMobile</h5>
+            <p class="text-white-500">Your mobile-first shopping destination</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h6>Quick Links</h6>
+            <ul class="list-unstyled text-white-500">
+              <li><a
+                  href="/about"
+                  class="text-white-500 text-decoration-none"
+                >About Us</a></li>
+              <li><a
+                  href="/contact"
+                  class="text-white-500 text-decoration-none"
+                >Contact</a></li>
+              <li><a
+                  href="/products"
+                  class="text-white-500 text-decoration-none"
+                >Products</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-3" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 ShopMobile. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <!-- Custom JS -->
+    <script src="./Cart.js"></script>
+  </body>
+</html>

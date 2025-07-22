@@ -1,0 +1,616 @@
+[
+  {
+    "id": "p1",
+    "name": "Smartphone Pro X",
+    "brand": "MobileTech",
+    "description": "A powerful smartphone with stunning display.",
+    "price": 799,
+    "originalPrice": 999,
+    "img": "https://m.media-amazon.com/images/I/619oqSJVY5L._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p2",
+    "name": "Wireless Headphones",
+    "brand": "SoundMax",
+    "description": "Experience high-quality sound wirelessly.",
+    "price": 149,
+    "img": "https://m.media-amazon.com/images/I/41lArSiD5hL.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p3",
+    "name": "Smartwatch Series 6",
+    "brand": "WearableTech",
+    "description": "Stay connected with this stylish smartwatch.",
+    "price": 299,
+    "originalPrice": 399,
+    "img": "https://m.media-amazon.com/images/I/71zkMUBbcWL._UF1000,1000_QL80_.jpg",
+    "category": "wearables"
+  },
+  {
+    "id": "p4",
+    "name": "Gaming Laptop Pro",
+    "brand": "TechGamer",
+    "description": "High-performance laptop for gaming enthusiasts.",
+    "price": 1299,
+    "img": "https://www.asus.com/media/Odin/Websites/global/Series/29.png",
+    "category": "electronics"
+  },
+  {
+    "id": "p5",
+    "name": "Bluetooth Speaker",
+    "brand": "SoundWave",
+    "description": "Portable speaker with deep bass and clear sound.",
+    "price": 89,
+    "img": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Stone_Spinx_Pro.jpg?v=1709718328",
+    "category": "accessories"
+  },
+  {
+    "id": "p6",
+    "name": "4K Ultra HD TV",
+    "brand": "VisionTech",
+    "description": "Experience cinematic visuals with our 4K Ultra HD TV.",
+    "price": 999,
+    "img": "https://sharptronics.in/cdn/shop/products/71Q24PwtvaL._SL1500__1_cc362d64-2f1c-44e2-9482-33a1be5d1aff.jpg?v=1664524638",
+    "category": "electronics"
+  },
+  {
+    "id": "p7",
+    "name": "Fitness Tracker Pro",
+    "brand": "HealthTech",
+    "description": "Track your fitness goals with this advanced tracker.",
+    "price": 199,
+    "img": "https://images-cdn.ubuy.co.in/6464ed9cfce12255d7626017-m4-pro-smart-band-thermometer-new-m4.jpg",
+    "category": "wearables"
+  },
+  {
+    "id": "p8",
+    "name": "Portable SSD 1TB",
+    "brand": "DataDrive",
+    "description": "Fast and reliable storage solution for your data.",
+    "price": 129,
+    "img": "https://rukminim2.flixcart.com/image/704/844/kiew3gw0/external-hard-drive/ssd/y/e/s/sandisk-sdssde61-2t00-g25-original-imafy7vwsqghv32b.jpeg?q=90&crop=false",
+    "category": "accessories"
+  },
+  {
+    "id": "p9",
+    "name": "Smart Home Hub",
+    "brand": "HomeTech", 
+    "description": "Control all your smart devices from one hub.",
+    "price": 199,
+    "img": "https://www.cnet.com/a/img/resize/f5a9d3d0bde4745d6f6d50559a6d6f5ab74aabaa/hub/2020/10/21/0608c58e-c3c8-4e25-85b9-9d155c0c56e2/amazon-echo-2020-2.jpg?auto=webp&fit=crop&height=675&width=1200",
+    "category": "electronics"
+  },
+  {
+    "id": "p10",
+    "name": "Noise-Cancelling Earbuds",
+    "brand": "SoundElite",
+    "description": "Enjoy music without distractions with these earbuds.",
+    "price": 159,
+    "img": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/airpods-4-anc-select-202409_FMT_WHH?wid=752&hei=636&fmt=jpeg&qlt=90&.v=1725502639798",
+    "category": "accessories"
+  },
+  {
+    "id": "p11",
+    "name": "Gaming Mouse Pro",
+    "brand": "GamerGear",
+    "description": "Precision gaming mouse with customizable buttons.",
+    "price": 89,
+    "img": "https://sell.gameloot.in/wp-content/uploads/sites/4/2023/04/Razer-Basilisk-V3-Pro-Ergonomic-Wireless-Gaming-Mouse-Black-300x343.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p12",
+    "name": "Smart Thermostat",
+    "brand": "EcoHome",
+    "description": "Save energy with this smart thermostat.",
+    "price": 249,
+    "img": "https://m.media-amazon.com/images/I/51U1jXuTPVL.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p13",
+    "name": "Wireless Charger Pad",
+    "brand": "ChargeTech",
+    "description": "Fast wireless charging for your devices.",
+    "price": 39,
+    "img": "https://ae.hama.com/bilder/00201/abx/00201725abx.webp",
+    "category": "accessories"
+  },
+  {
+    "id": "p14",
+    "name": "Smart Security Camera",
+    "brand": "SecureHome",
+    "description": "Keep an eye on your home with this smart camera.",
+    "price": 199,
+    "img": "https://m.media-amazon.com/images/I/71SxP8sz4GL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p15",
+    "name": "Ergonomic Office Chair",
+    "brand": "ComfortTech",
+    "description": "Stay comfortable during long work hours.",
+    "price": 199,
+    "img": "https://images-cdn.ubuy.co.in/633f99440e3c67529c1ba402-ergonomic-office-chair-high-back-mesh.jpg",
+    "category": "furniture"
+  },
+  {
+    "id": "p16",
+    "name": "Smart Light Bulb",
+    "brand": "BrightHome",
+    "description": "Control your home lighting with this smart bulb.",
+    "price": 29,
+    "img": "https://www.edn.com/wp-content/uploads/Sengled_smart_LED_light_bulb.jpg?w=950&resize=550%2C557",
+    "category": "electronics"
+  },
+  {
+    "id": "p17",
+    "name": "Portable Power Bank",
+    "brand": "PowerPlus",
+    "description": "Keep your devices charged on the go.",
+    "price": 49,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTtjeR5XHm3_ygvyC4qdDIxuHUN5uFZ1zP56Q&s",
+    "category": "accessories"
+  },
+  {
+    "id": "p18",
+    "name": "Smart Coffee Maker",
+    "brand": "BrewTech",
+    "description": "Make coffee with just a tap on your phone.",
+    "price": 129,
+    "img": "https://smarter.am/cdn/shop/products/SC_007_800x.png?v=1647597916",
+    "category": "electronics"
+  },
+  {
+    "id": "p19",
+    "name": "Gaming Headset",
+    "brand": "GamerSound",
+    "description": "Immersive sound for an enhanced gaming experience.",
+    "price": 99,
+    "img": "https://i0.wp.com/pckumar.in/wp-content/uploads/2024/08/H-ZEB-PREMIUM-GAMING-HEADPHONE-JET-PRO.jpg?fit=810%2C810&ssl=1",
+    "category": "accessories"
+  },
+  {
+    "id": "p20",
+    "name": "Smart Air Purifier",
+    "brand": "CleanAir",
+    "description": "Breathe easy with this smart air purifier.",
+    "price": 249,
+    "img": "https://i01.appmifile.com/webfile/globalimg/products/m/xiaomi-smart-air-purifier-4-pro/section11Img.png",
+    "category": "electronics"
+  },
+  {
+    "id": "p21",
+    "name": "Smart Door Lock",
+    "brand": "SecureTech",
+    "description": "Enhance your home security with this smart door lock.",
+    "price": 199,
+    "img": "https://ozone.blr1.digitaloceanspaces.com/media/2025/01/OZ-FDL-01LIFESTD_Image-1-2.webp",
+    "category": "electronics"
+  },
+  {
+    "id": "p22",
+    "name": "Smart Vacuum Cleaner",
+    "brand": "CleanTech",
+    "description": "Keep your floors spotless with this smart vacuum cleaner.",
+    "price": 399,
+    "img": "https://images.philips.com/is/image/philipsconsumer/vrs_eba8719c3ad84a857ae918661f45b1f31d19bdf6?wid=700&hei=700&$pnglarge$",
+    "category": "electronics"
+  },
+  {
+    "id": "p23",
+    "name": "Smart Mirror",
+    "brand": "ReflectTech",
+    "description": "A mirror that displays time, weather, and more.",
+    "price": 299,
+    "img": "https://i.ytimg.com/vi/puFSdfIRNIw/maxresdefault.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p24",
+    "name": "Smart Pet Feeder",
+    "brand": "PetTech",
+    "description": "Feed your pets on schedule with this smart feeder.",
+    "price": 149,
+    "img": "https://cdn.thewirecutter.com/wp-content/media/2024/09/automatic-pet-feeder-2048px-3299.jpg?auto=webp&quality=75&width=1024",
+    "category": "electronics"
+  },
+  {
+    "id": "p25",
+    "name": "Smart Water Bottle",
+    "brand": "HydroTech",
+    "description": "Stay hydrated with this smart water bottle.",
+    "price": 39,
+    "img": "https://www.waterh.com/cdn/shop/files/B00332oz_-_1_8625b882-9160-4941-bc6c-dd6606fb9676.jpg?v=1751440101&width=1946",
+    "category": "accessories"
+  },
+  {
+    "id": "p26",
+    "name": "Smart Garden System",
+    "brand": "GardenTech",
+    "description": "Grow plants effortlessly with this smart garden system.",
+    "price": 249,
+    "img": "https://m.media-amazon.com/images/I/71jGHpNT8WL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p27",
+    "name": "Smart Sleep Mask",
+    "brand": "SleepTech",
+    "description": "Improve your sleep quality with this smart sleep mask.",
+    "price": 59,
+    "img": "https://sslive.imgix.net/media/catalog/product/s/o/sound_oasis_mask.jpg?auto=format&fit=fill&w=1000&h=auto",
+    "category": "accessories"
+  },
+  {
+    "id": "p28",
+    "name": "Smart Bike Lock",
+    "brand": "BikeSecure",
+    "description": "Keep your bike safe with this smart lock.",
+    "price": 89,
+    "img": "https://ilockit.bike/cdn/shop/files/ilockit-pro---frontal.jpg?v=1709813824&width=1500",
+    "category": "accessories"
+  },
+  {
+    "id": "p29",
+    "name": "Smart Luggage Tracker",
+    "brand": "TravelTech",
+    "description": "Never lose your luggage again with this smart tracker.",
+    "price": 49,
+    "img": "https://m.media-amazon.com/images/I/51o-r3gwh5L.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p30",
+    "name": "Smart Pet Collar",
+    "brand": "PetTech",
+    "description": "Track your pet's location with this smart collar.",
+    "price": 79,
+    "img": "https://cdn.gadgetbytenepal.com/wp-content/uploads/2024/01/Minitaliz-AI-smart-collar.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p31",
+    "name": "Smart Air Quality Monitor",
+    "brand": "AirTech",
+    "description": "Monitor your indoor air quality with this smart device.",
+    "price": 99,
+    "img": "https://m.media-amazon.com/images/I/71uRLSiQBaL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p32",
+    "name": "Smart Food Scale",
+    "brand": "KitchenTech",
+    "description": "Measure your food portions accurately with this smart scale.",
+    "price": 39,
+    "img": "https://hnau.imgix.net/media/catalog/product/p/a/pau-es-sns01-sl-renpho-scale.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p33",
+    "name": "Smart Shower Head",
+    "brand": "WaterTech",
+    "description": "Enjoy a smart shower experience with this device.",
+    "price": 89,
+    "img": "https://usbathstore.com/cdn/shop/products/Fontana-Lano-Digital-Smart-Chrome-Wall-Mounted-Contemporary-Shower-System-With-Water-Powered-LED-Lights.jpg?v=1678793143&width=533",
+    "category": "electronics"
+  },
+  {
+    "id": "p34",
+    "name": "Smart Desk Lamp",
+    "brand": "LightTech",
+    "description": "Adjust the brightness and color temperature with this smart lamp.",
+    "price": 59,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwyV1hxt8QwMFdxrK2j_CZlDoQPQsqwF8tTA&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p35",
+    "name": "Smart Pet Camera",
+    "brand": "PetTech",
+    "description": "Keep an eye on your pets with this smart camera.",
+    "price": 149,
+    "img": "https://www.petbarn.com.au/media/catalog/product/1/4/143874-DOGNESS-PET-CAMERA-SMRT-TRT-4.jpg?optimize=medium&fit=bounds&height=450&width=450&canvas=450:450",
+    "category": "electronics"
+  },
+  {
+    "id": "p36",
+    "name": "Smart Plant Monitor",
+    "brand": "GardenTech",
+    "description": "Monitor your plants' health with this smart device.",
+    "price": 49,
+    "img": "https://cdn05.zipify.com/jbePr_Ixd5lfWY7SimnpDfIFoeE=/fit-in/1080x0/9e631f3e50ed424fa8206909000943e0/smartplantmonitor1.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p37",
+    "name": "Smart Sleep Tracker",
+    "brand": "SleepTech",
+    "description": "Track your sleep patterns with this smart device.",
+    "price": 99,
+    "img": "https://cdn.thewirecutter.com/wp-content/media/2023/11/sleeptrackingwearables-2048px-4254.jpg?auto=webp&quality=75&width=1024",
+    "category": "wearables"
+  },
+  {
+    "id": "p38",
+    "name": "Smart Water Filter",
+    "brand": "WaterTech",
+    "description": "Ensure clean drinking water with this smart filter.",
+    "price": 129,
+    "img": "https://m.media-amazon.com/images/I/51FkmDiBWjL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p39",
+    "name": "Smart Bike Computer",
+    "brand": "BikeTech",
+    "description": "Track your cycling performance with this smart computer.",
+    "price": 89,
+    "img": "https://www.wizbiker.com/image/cache/catalog/Products/MAGENE/gps-computer-black-1000x1000.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p40",
+    "name": "pc webcam",
+    "brand": "PetTech",
+    "description": "Feed and monitor your pets remotely with this device.",
+    "price": 199,
+    "img": "https://images-cdn.ubuy.co.in/6813248191c51cdb340a5ed0-emeet-1080p-hd-webcam-c960-web-camera.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p41",
+    "name": "Smart Bike Light",
+    "brand": "BikeTech",
+    "description": "Stay visible and safe with this smart bike light.",
+    "price": 39,
+    "img": "https://img.grouponcdn.com/deal/TjLd4xDsM9JX2JMghrwKHVo9uGC/Tj-960x576/v1/t600x362.jpg",
+    "category": "accessories"
+  },
+  {
+    "id": "p42",
+    "name": "Smart Bell Door",
+    "brand": "PetTech",
+    "description": "Allow your pets to come and go freely with this smart door.",
+    "price": 249,
+    "img": "https://ausha.co.in/cdn/shop/products/D_c9961bb8-360a-4181-8aa8-737fe9a9c354.jpg?v=1703852572",
+    "category": "electronics"
+  },
+  {
+    "id": "p43",
+    "name": "Smart Home Security System",
+    "brand": "SecureTech",
+    "description": "Protect your home with this comprehensive security system.",
+    "price": 499,
+    "img": "https://m.media-amazon.com/images/I/4119gKMzUZL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p44",
+    "name": "Smart Home Automation Kit",
+    "brand": "HomeTech",
+    "description": "Automate your home with this complete kit.",
+    "price": 349,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi7_tfPKebeKpPaPnWegjr84gbVom4qk1OWw&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p45",
+    "name": "Smart Home Energy Monitor",
+    "brand": "EnergyTech",
+    "description": "Monitor and reduce your energy consumption with this device.",
+    "price": 99,
+    "img": "https://m.media-amazon.com/images/I/61kU-Cdh6PL.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p46",
+    "name": "Smart Home Weather Station",
+    "brand": "WeatherTech",
+    "description": "Get real-time weather updates with this smart station.",
+    "price": 129,
+    "img": "https://m.media-amazon.com/images/I/71f8jkpRJtL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p47",
+    "name": "Smart Home Voice Assistant",
+    "brand": "VoiceTech",
+    "description": "Control your smart home with voice commands.",
+    "price": 99,
+    "img": "https://i.guim.co.uk/img/media/dcac602816d243e3e3017213f034db541f3bdd98/0_0_3169_1902/master/3169.jpg?width=465&dpr=1&s=none&crop=none",
+    "category": "electronics"
+  },
+  {
+    "id": "p48",
+    "name": "Smart Home Camera System",
+    "brand": "SecureTech",
+    "description": "Monitor your home with this advanced camera system.",
+    "price": 399,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvbvj6zHc-3qK6uplFWAfN-i0eXpIJMsfKLw&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p49",
+    "name": "Smart Home Lighting System",
+    "brand": "LightTech",
+    "description": "Control your home lighting with this smart system.",
+    "price": 199,
+    "img": "https://www.brilliant.tech/cdn/shop/files/shc-gallery-main-image_2048x.png?v=1639083549",
+    "category": "electronics"
+  },
+  {
+    "id": "p50",
+    "name": "Smart Home Security Alarm",
+    "brand": "SecureTech",
+    "description": "Protect your home with this smart security alarm.",
+    "price": 149,
+    "img": "https://cdn.thewirecutter.com/wp-content/media/2022/06/home-security-system-2048px-5235-3x2-1.jpg?auto=webp&quality=75&crop=1:1,smart&width=1024",
+    "category": "electronics"
+  },
+  {
+    "id": "p51",
+    "name": "Smart Home Smoke Detector",
+    "brand": "SafetyTech",
+    "description": "Stay safe with this smart smoke detector.",
+    "price": 79,
+    "img": "https://m.media-amazon.com/images/I/41wJkdIwvVL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p52",
+    "name": "Smart Home Carbon Monoxide Detector",
+    "brand": "SafetyTech",
+    "description": "Protect your home from carbon monoxide with this smart detector.",
+    "price": 89,
+    "img": "https://files.ekmcdn.com/massivelighting/images/trust-switch-in-smart-wireless-carbon-monoxide-detector-zco-900-71260-by-trust-smart-ho-10346-p.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p53",
+    "name": "Smart Home Leak Detector",
+    "brand": "SafetyTech",
+    "description": "Prevent water damage with this smart leak detector.",
+    "price": 69,
+    "img": "https://m.media-amazon.com/images/I/61NQCRQShvL.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p54",
+    "name": "Smart Home Energy Saver",
+    "brand": "EnergyTech",
+    "description": "Reduce your energy bills with this smart device.",
+    "price": 99,
+    "img": "https://i.cdn.newsbytesapp.com/images/l55420241203144531.png",
+    "category": "electronics"
+  },
+  {
+    "id": "p55",
+    "name": "Smart Home Water Timer",
+    "brand": "WaterTech",
+    "description": "Control your garden watering schedule with this smart timer.",
+    "price": 49,
+    "img": "https://5.imimg.com/data5/SELLER/Default/2025/4/504759217/XO/QB/VS/25919197/wifi-smart-water-timer-tuya-app-irrigation-control-for-home-garden-500x500.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p56",
+    "name": "Smart Home Irrigation System",
+    "brand": "GardenTech",
+    "description": "Automate your garden irrigation with this smart system.",
+    "price": 199,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJGg8qVSoJJVOT3SxH7MRj4ndKME8PGo-8IQ&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p57",
+    "name": "Smart Home Pool Monitor",
+    "brand": "PoolTech",
+    "description": "Keep your pool clean and safe with this smart monitor.",
+    "price": 249,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqBVnbY5z_PCBkKKI8mtAKra-JGNYf_rmlDw&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p58",
+    "name": "Smart Home Garage Door Opener",
+    "brand": "GarageTech",
+    "description": "Control your garage door remotely with this smart opener.",
+    "price": 129,
+    "img": "https://www.jbhifi.com.au/cdn/shop/files/792287-Product-0-I-638736969003422782.jpg?v=1738100171",
+    "category": "electronics"
+  },
+  {
+    "id": "p59",
+    "name": "Smart Home Window Blinds",
+    "brand": "BlindTech",
+    "description": "Control your window blinds with this smart device.",
+    "price": 199,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFzLL4vYUotvG_jk3ncD1F18yM-7y0VMJv5w&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p60",
+    "name": "Smart Home Air Conditioner Controller",
+    "brand": "CoolTech",
+    "description": "Control your air conditioner remotely with this smart controller.",
+    "price": 89,
+    "img": "https://m.media-amazon.com/images/I/61XfHTHMoDL.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p61",
+    "name": "Smart Home Heater Controller",
+    "brand": "HeatTech",
+    "description": "Control your heater remotely with this smart controller.",
+    "price": 89,
+    "img": "https://www.hotowell.com/Uploads/products/2021-01-05/en-boiler-thermostat.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p62",
+    "name": "Smart Home Humidifier Controller",
+    "brand": "HumidityTech",
+    "description": "Control your humidifier remotely with this smart controller.",
+    "price": 89,
+    "img": "https://m.media-amazon.com/images/I/71tqb0yKhnL._UF894,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p63",
+    "name": "Smart Home Dehumidifier Controller",
+    "brand": "DryTech",
+    "description": "Control your dehumidifier remotely with this smart controller.",
+    "price": 89,
+    "img": "https://m.media-amazon.com/images/I/61Eeh4BtdsL._UF894,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p64",
+    "name": "Smart Home Air Purifier Controller",
+    "brand": "CleanTech",
+    "description": "Control your air purifier remotely with this smart controller.",
+    "price": 89,
+    "img": "https://m.media-amazon.com/images/I/61xG0LYsTnL._UF1000,1000_QL80_.jpg",
+    "category": "electronics"
+  },
+  {
+    "id": "p65",
+    "name": "Smart Home Water Heater Controller",
+    "brand": "HeatWaterTech",
+    "description": "Control your water heater remotely with this smart controller.",
+    "price": 89,
+    "img": "https://www.sinopetech.com/cdn/shop/files/rm3500-calypso_installer-mur_beton-1080x1080_load_rouge.png?v=1742495468&width=1080",
+    "category": "electronics"
+  },
+  {
+    "id": "p66",
+    "name": "Smart Home Pool Heater Controller",
+    "brand": "PoolHeatTech",
+    "description": "Control your pool heater remotely with this smart controller.",
+    "price": 89,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPlXXU6IaQIxoB8HTXfamevvwJc51NsFHHuw&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p67",
+    "name": "Smart Home Spa Controller",
+    "brand": "SpaTech",
+    "description": "Control your spa remotely with this smart controller.",
+    "price": 129,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrraNWPvuIFpGZhri4EHg5D_LQVzRyD7oc6w&s",
+    "category": "electronics"
+  },
+  {
+    "id": "p68",
+    "name": "Smart Home Sauna Controller",
+    "brand": "SaunaTech",
+    "description": "Control your sauna remotely with this smart controller.",
+    "price": 129,
+    "img": "https://nootkasaunas.com/cdn/shop/files/smartcontroller.png?v=1716135062",
+    "category": "electronics"
+  }
+]

@@ -1,0 +1,452 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - ShopMobile</title>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+
+    <!-- Bootstrap 5 CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./About.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="/">
+          <i class="bi bi-bag-check text-primary me-2"></i>ShopMobile
+        </a>
+
+        <!-- Cart Icon and Hamburger Toggle -->
+        <div class="d-flex align-items-center">
+          <a
+            href="/cart"
+            class="btn btn-outline-primary position-relative me-3"
+          >
+            <i class="bi bi-cart3"></i>
+            <span
+              class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-count"
+            >
+              0
+            </span>
+          </a>
+
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="py-4 bg-light">
+      <div class="container">
+        <h1 class="h2 mb-0">About Us</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb mb-0">
+            <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+            <li class="breadcrumb-item active">About</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- About Content -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 mx-auto">
+            <!-- Our Story -->
+            <div class="text-center mb-5">
+              <h2 class="mb-4">Our Story</h2>
+              <p class="lead">ShopMobile was born from a simple idea: making
+                online shopping accessible and enjoyable for everyone,
+                especially on mobile devices.</p>
+            </div>
+
+            <!-- Mission Section -->
+            <div class="card mb-5">
+              <div class="card-body p-4">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-3 text-center mb-3 mb-md-0">
+                    <i class="bi bi-bullseye display-4 text-primary"></i>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <h4>Our Mission</h4>
+                    <p class="mb-0">To provide a seamless, mobile-first shopping
+                      experience that connects customers with quality products
+                      while maintaining the highest standards of service and
+                      security.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Vision Section -->
+            <div class="card mb-5">
+              <div class="card-body p-4">
+                <div class="row align-items-center">
+                  <div class="col-12 col-md-3 text-center mb-3 mb-md-0">
+                    <i class="bi bi-eye display-4 text-primary"></i>
+                  </div>
+                  <div class="col-12 col-md-9">
+                    <h4>Our Vision</h4>
+                    <p class="mb-0">To become the leading mobile-first eCommerce
+                      platform, setting new standards for user experience and
+                      customer satisfaction in the digital marketplace.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Values Section -->
+            <div class="mb-5">
+              <h3 class="text-center mb-4">Our Values</h3>
+              <div class="row g-4">
+                <div class="col-12 col-md-6">
+                  <div class="card h-100">
+                    <div class="card-body text-center">
+                      <i
+                        class="bi bi-heart-fill text-primary display-5 mb-3"
+                      ></i>
+                      <h5>Customer First</h5>
+                      <p class="text-muted">Every decision we make is centered
+                        around improving our customers' experience.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="card h-100">
+                    <div class="card-body text-center">
+                      <i
+                        class="bi bi-shield-check text-primary display-5 mb-3"
+                      ></i>
+                      <h5>Trust & Security</h5>
+                      <p class="text-muted">We prioritize the security and
+                        privacy of our customers' information.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="card h-100">
+                    <div class="card-body text-center">
+                      <i
+                        class="bi bi-lightning-fill text-primary display-5 mb-3"
+                      ></i>
+                      <h5>Innovation</h5>
+                      <p class="text-muted">We continuously innovate to provide
+                        cutting-edge shopping solutions.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <div class="card h-100">
+                    <div class="card-body text-center">
+                      <i class="bi bi-globe text-primary display-5 mb-3"></i>
+                      <h5>Accessibility</h5>
+                      <p class="text-muted">Making online shopping accessible to
+                        everyone, everywhere.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Statistics -->
+            <div class="bg-primary text-white rounded p-4 mb-5">
+              <div class="row text-center">
+                <div class="col-6 col-md-3">
+                  <h3 class="fw-bold">10K+</h3>
+                  <small>Happy Customers</small>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h3 class="fw-bold">500+</h3>
+                  <small>Products</small>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h3 class="fw-bold">50+</h3>
+                  <small>Countries</small>
+                </div>
+                <div class="col-6 col-md-3">
+                  <h3 class="fw-bold">24/7</h3>
+                  <small>Support</small>
+                </div>
+              </div>
+            </div>
+
+            <!-- Team Section -->
+            <div class="text-center mb-5">
+              <h3 class="mb-4">Meet Our Team</h3>
+              <div class="row g-4">
+                <div class="col-12 col-md-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <div
+                        class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                        style="width: 80px; height: 80px;"
+                      >
+                        <i class="bi bi-person-fill text-white display-6"></i>
+                      </div>
+                      <h6>Sarah Johnson</h6>
+                      <small class="text-muted">CEO & Founder</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <div
+                        class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                        style="width: 80px; height: 80px;"
+                      >
+                        <i class="bi bi-person-fill text-white display-6"></i>
+                      </div>
+                      <h6>Mike Chen</h6>
+                      <small class="text-muted">CTO</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-4">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <div
+                        class="bg-primary rounded-circle d-inline-flex align-items-center justify-content-center mb-3"
+                        style="width: 80px; height: 80px;"
+                      >
+                        <i class="bi bi-person-fill text-white display-6"></i>
+                      </div>
+                      <h6>Emily Davis</h6>
+                      <small class="text-muted">Head of Design</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="text-center">
+              <h4 class="mb-3">Ready to Start Shopping?</h4>
+              <p class="mb-4">Join thousands of satisfied customers and discover
+                your next favorite product.</p>
+              <a href="products.html" class="btn btn-primary btn-lg me-3">Shop
+                Now</a>
+              <a
+                href="contact.html"
+                class="btn btn-outline-primary btn-lg"
+              >Contact Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Floating Sign In Button -->
+    <button
+      class="btn btn-primary floating-auth-btn d-lg-none"
+      data-bs-toggle="modal"
+      data-bs-target="#authModal"
+    >
+      <i class="bi bi-person-plus"></i>
+    </button>
+
+    <!-- Auth Modal -->
+    <div class="modal fade" id="authModal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <ul
+              class="nav nav-tabs flex-fill border-0"
+              id="authTabs"
+              role="tablist"
+            >
+              <li class="nav-item flex-fill" role="presentation">
+                <button
+                  class="nav-link active w-100"
+                  id="signin-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#signin"
+                  type="button"
+                >Sign In</button>
+              </li>
+              <li class="nav-item flex-fill" role="presentation">
+                <button
+                  class="nav-link w-100"
+                  id="signup-tab"
+                  data-bs-toggle="tab"
+                  data-bs-target="#signup"
+                  type="button"
+                >Sign Up</button>
+              </li>
+            </ul>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="tab-content" id="authTabContent">
+              <!-- Sign In Tab -->
+              <div class="tab-pane fade show active" id="signin">
+                <form id="signinForm">
+                  <div class="mb-3">
+                    <label for="signinEmail" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="signinEmail"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="signinPassword"
+                      class="form-label"
+                    >Password</label>
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signinPassword"
+                        required
+                      />
+                      <button
+                        class="btn btn-outline-secondary password-toggle"
+                        type="button"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                </form>
+              </div>
+              <!-- Sign Up Tab -->
+              <div class="tab-pane fade" id="signup">
+                <form id="signupForm">
+                  <div class="mb-3">
+                    <label for="signupName" class="form-label">Full Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="signupName"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label for="signupEmail" class="form-label">Email</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="signupEmail"
+                      required
+                    />
+                  </div>
+                  <div class="mb-3">
+                    <label
+                      for="signupPassword"
+                      class="form-label"
+                    >Password</label>
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        id="signupPassword"
+                        required
+                      />
+                      <button
+                        class="btn btn-outline-secondary password-toggle"
+                        type="button"
+                      >
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </div>
+                  </div>
+                  <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 text-white-500">
+            <h5>ShopMobile</h5>
+            <p class="text-white-500">Your mobile-first shopping destination</p>
+          </div>
+          <div class="col-12 col-md-6">
+            <h6>Quick Links</h6>
+            <ul class="list-unstyled text-white-500">
+              <li><a
+                  href="/about"
+                  class="text-white-500 text-decoration-none"
+                >About Us</a></li>
+              <li><a
+                  href="/contact"
+                  class="text-white-500 text-decoration-none"
+                >Contact</a></li>
+              <li><a
+                  href="/products"
+                  class="text-white-500 text-decoration-none"
+                >Products</a></li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-3" />
+        <div class="text-center">
+          <p class="mb-0">&copy; 2025 ShopMobile. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <!-- Custom JS -->
+    <script src="./About.js"></script>
+  </body>
+</html>
